@@ -1,0 +1,98 @@
+.body2{
+    /* On met en place le fond d'écran */
+    /*background-color: #67be4b;*/
+    background-repeat: no-repeat;
+    background-image:url(img/img6.jpg);
+    background-size: cover;
+    margin: auto;
+   /*  min-height: 100%;
+    min-width: 1024px; */
+    /* On indique un redimensionnement proportionnel */
+    /* width: 100%; */
+    /* height: auto; */
+        /* L'image est positionnée en haut à gauche */
+        /* position: fixed;
+        top: 0;
+        left: 0; */
+   }
+   @media screen and (max-width: 1024px) { /* Le traitement est ici spécifique à l'image */
+    body {
+    left: 50%;
+    margin-left: -512px; /* 50% */
+    }
+   }
+.body1{
+    /* On met en place le fond d'écran */
+    /*background-color: #67be4b;*/
+    background-repeat: no-repeat;
+    background-image:url(img/img6.jpg);
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+    /* On indique un redimensionnement proportionnel */
+    width: 100%;
+    height: auto;
+        /* L'image est positionnée en haut à gauche */
+        position: fixed;
+        top: 0;
+        left: 0;
+   }
+   @media screen and (max-width: 1024px) { /* Le traitement est ici spécifique à l'image */
+    body {
+    left: 50%;
+    margin-left: -512px; /* 50% */
+    }
+   }
+#contain{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+    
+}
+form{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #030303;
+    box-shadow: 0 0 20px 0 ;
+}
+
+#contain h1{
+    color: rgb(3, 3, 3);
+    
+}
+
+.login{
+    background-color: rgb(231, 231, 243);
+}
+
+#contain>form>p{
+    text-align: center;
+}
+/* champs de formulaire */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* Boutton formulaire : submit */
+input[type=submit] {
+    background-color: #6088f8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #6088f8;
+    border: 1px solid #6088f8;
+}
+input[type=submit].passwordoublier{
+    background-color: chocolate;
+}
+
